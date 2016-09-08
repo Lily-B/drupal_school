@@ -1,0 +1,16 @@
+# Error 404 in my file
+	ErrorDocument 404 /404.html 
+
+#Deny access to all files with .conf extention
+	<Files "*.conf"> 
+  	deny from all 
+	</Files>
+
+#example of rewrite rule for redirection
+	# with ^ starts the phraze and ends with $  
+	# "." is sp. char for Any symbol, so we have to add "\" before it 
+	RewriteEngine on
+	RewriteRule ^nopage\.html$ http://www.google.com/ [R=301]
+
+
+
