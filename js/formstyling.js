@@ -79,6 +79,7 @@ $(document).ready(function(){
         'font-family':'"Ubuntu Mono", SansSerif, sans-serif'
         }
     );
+
     $("h1").css({
         'font-size': '25px',
         'text-align': 'center',
@@ -86,6 +87,13 @@ $(document).ready(function(){
         'margin-bottom': '0'
         }
     );
+
+    $("#errorContainer").css({
+            'font-size': '15px',
+            'color' : '#ff0000'
+        }
+    );
+
     $("input[type='text']::-webkit-input-placeholder").css({
             'font-size':'15px',
             'color':'#798790',
