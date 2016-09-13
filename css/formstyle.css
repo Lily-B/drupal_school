@@ -80,7 +80,8 @@ form input[type="submit"] {
 h1 {
     font-size: 25px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
 
 input[type="text"]::-webkit-input-placeholder {
