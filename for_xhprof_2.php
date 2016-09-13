@@ -24,8 +24,9 @@ $c = $a + $b;
 //echo phpinfo();
 
 function mysumm($field) {
-    return $summ = $field+15;
+  return $summ = $field + 15;
 }
+
 echo mysumm(15);
 $xhprof_data = xhprof_disable();
 

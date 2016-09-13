@@ -1,18 +1,17 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $("body").css({
-            'background-color':'#c1bdba',
-            'font-family':  'SansSerif, sans-serif',
+            'background-color': '#c1bdba',
+            'font-family': 'SansSerif, sans-serif',
             'font-size': '15px'
         }
     );
 
 
-
     $("#signUp").css({
             'background-color': '#24323d',
             'display': 'inline-block',
-            'width':'385px',
-            'height':'385px',
+            'width': '385px',
+            'height': '385px',
             'color': '#ffffff',
             'border-radius': '4px',
             'margin': '8px 30px',
@@ -25,79 +24,79 @@ $(document).ready(function(){
     );
 
     $("form a").css({
-        'text-decoration': 'none',
-        'display': 'inline-block',
-        'width': '50%',
-        'height': '22px',
-        'text-align': 'center',
-        'padding': '16px 0 10px',
-        'background-color': '#1ab188'
+            'text-decoration': 'none',
+            'display': 'inline-block',
+            'width': '50%',
+            'height': '22px',
+            'text-align': 'center',
+            'padding': '16px 0 10px',
+            'background-color': '#1ab188'
         }
     );
     $("form a:active, form a:visited, form a:link").css({
-        'color': '#ffffff'
+            'color': '#ffffff'
         }
     );
     $("form a:nth-of-type(2)").css({
-        'background-color': '#435259',
-        'color': '#798790'
+            'background-color': '#435259',
+            'color': '#798790'
         }
     );
 
     $("form input").css({
-        'background-color': 'inherit',
-        'color': '#ffffff',
-        'border': '1px solid #798790',
-        'border-radius': '0',
-        'margin': '15px 0',
-        'display': 'inline-block',
-        'width': '95%',
-        'height': '15px',
-        'padding': '10px'
+            'background-color': 'inherit',
+            'color': '#ffffff',
+            'border': '1px solid #798790',
+            'border-radius': '0',
+            'margin': '15px 0',
+            'display': 'inline-block',
+            'width': '95%',
+            'height': '15px',
+            'padding': '10px'
         }
     );
     $("form input[type='text']").css({
-        'display': 'inline-block',
-        'width': '42%',
-        'background-color': 'inherit',
-        'border': '1px solid #798790',
-        'border-radius': '0'
+            'display': 'inline-block',
+            'width': '42%',
+            'background-color': 'inherit',
+            'border': '1px solid #798790',
+            'border-radius': '0'
         }
     );
     $("form input[type='text']:nth-of-type(2)").css({
-        'float': 'right'
+            'float': 'right'
         }
     );
     $("form input[type='submit']").css({
-        'border': 'none',
-        'background-color': '#1ab188',
-        'border-radius': '0',
-        'height': '60px',
-        'width':'100%',
-        'color': '#ffffff',
-        'font-size': '24px',
-        'font-family':'"Ubuntu Mono", SansSerif, sans-serif'
+            'border': 'none',
+            'background-color': '#1ab188',
+            'border-radius': '0',
+            'height': '60px',
+            'width': '100%',
+            'color': '#ffffff',
+            'font-size': '24px',
+            'font-family': '"Ubuntu Mono", SansSerif, sans-serif'
         }
     );
 
     $("h1").css({
-        'font-size': '25px',
-        'text-align': 'center',
-        'margin-top': '30px',
-        'margin-bottom': '0'
+            'font-size': '25px',
+            'text-align': 'center',
+            'margin-top': '30px',
+            'margin-bottom': '0'
         }
     );
 
     $("#errorContainer").css({
             'font-size': '15px',
-            'color' : '#ff0000'
+            'color': '#ff0000'
         }
     );
 
     $("input[type='text']::-webkit-input-placeholder").css({
-            'font-size':'15px',
-            'color':'#798790',
-            'background-image':'url("../css/Satr.png")',
+            'font-size': '15px',
+            'color': '#798790',
+            'background-image': 'url("../css/Satr.png")',
             'background-position': '-25px 35px',
             'background-color': '#24323d'
         }
