@@ -9,8 +9,8 @@
 #example of rewrite rule for redirection
 	# with ^ starts the phraze and ends with $  
 	# "." is sp. char for Any symbol, so we have to add "\" before it 
-	RewriteEngine on
-	RewriteRule ^nopage\.html$ http://www.google.com/ [R=301]
+#	RewriteEngine on
+#	RewriteRule ^nopage\.html$ http://www.google.com/ [R=301]
 
 
 
